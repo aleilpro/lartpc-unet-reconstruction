@@ -23,4 +23,4 @@ Liquid Argon TPC detectors (such as SBND, ICARUS, and DUNE) capture high-resolut
 2.Install the required dependencies:
   torch numpy matplotlib scikit-learn uproot awkward h5py tqdm
 3.Download the practice_test_2k.root dataset from the Deep Learn Physics open data repository and update the input file path in miniSPINE2000.ipynb.
-4.Open miniSPINE2000.ipynb in Jupyter / VS Code to reproduce training or load miniSPINE_unet_weights.pth directly for inference.
+4.Open miniSPINE2000.ipynb to reproduce training or load miniSPINE_unet_weights.pth directly for inference.

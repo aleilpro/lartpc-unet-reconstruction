@@ -32,19 +32,14 @@ Liquid Argon TPC detectors (such as SBND, ICARUS and DUNE) record high-resolutio
 
 | Split | File | Events |
 |---|---|---|
-| Train | `practice_train_2k.root` |
-| Test | `practice_test_2k.root` | 
+| Train | `practice_train_2k.root` | 2000 |
+| Test | `practice_test_2k.root` | 2000 |
 
 
 ## Results
 
 ![miniSPINE](miniSPINE.png)
 
-| Metric | Value |
-|---|---|
-| Pixel accuracy | TODO |
-| Per-class IoU / Dice (background, track, shower) | TODO |
-| Event-classification accuracy | TODO |
 
 ## How to run
 

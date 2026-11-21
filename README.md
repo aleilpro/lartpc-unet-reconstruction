@@ -17,7 +17,6 @@ Liquid Argon TPC detectors (such as SBND, ICARUS and DUNE) record high-resolutio
 | `miniSPINE.png` | Figure. |
 | `requirements.txt` | Python dependencies. |
 
-> **TODO:** confirm what the two `.h5` files contain (preprocessed events? how many?) and add a caption for `miniSPINE.png`.
 
 ## Model & pipeline
 
@@ -28,16 +27,14 @@ Liquid Argon TPC detectors (such as SBND, ICARUS and DUNE) record high-resolutio
   1. **Pixel-level semantic segmentation:** separating background, track-like hits and electromagnetic-shower hits.
   2. **Event classification:** categorizing the event topology from the learned representations.
 
-> **TODO:** list the event classes predicted by the classifier.
 
 ## Data
 
 | Split | File | Events |
 |---|---|---|
-| Train | `practice_train_2k.root` | TODO |
-| Test | `practice_test_2k.root` | TODO |
+| Train | `practice_train_2k.root` |
+| Test | `practice_test_2k.root` | 
 
-> **TODO:** fill in the number of events per split, whether a validation set is held out from the training file, and add the link and license of the Deep Learn Physics dataset.
 
 ## Results
 
@@ -48,8 +45,6 @@ Liquid Argon TPC detectors (such as SBND, ICARUS and DUNE) record high-resolutio
 | Pixel accuracy | TODO |
 | Per-class IoU / Dice (background, track, shower) | TODO |
 | Event-classification accuracy | TODO |
-
-> **TODO:** fill in the numbers from the evaluation cells of `ML.ipynb` (and, if available, add the confusion matrix and an example event display).
 
 ## How to run
 
@@ -70,7 +65,6 @@ Liquid Argon TPC detectors (such as SBND, ICARUS and DUNE) record high-resolutio
 
 4. Open `ML.ipynb` to reproduce training and evaluation, or load `miniSPINE_unet_weights.pth` to run inference without retraining.
 
-> **TODO:** confirm which notebook reproduces the training (`ML.ipynb` or `miniSPINE2000.ipynb`) and add the Python / PyTorch versions you used.
 
 ## Acknowledgements
 

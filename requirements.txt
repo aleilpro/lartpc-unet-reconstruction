@@ -1,0 +1,9 @@
+torch
+numpy
+matplotlib
+scikit-learn
+uproot
+awkward
+h5py
+tqdm
+jupyter

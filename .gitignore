@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+# Raw dataset files (download them separately)
+*.root
+.DS_Store
